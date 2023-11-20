@@ -1,0 +1,1 @@
+const remainingYears = (age) => 18 - age
