@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>setinterval e settimout</title>
+</head>
+<body>
+  <script>
+    const interval = setInterval(() => {
+      console.log('executou')
+    },5000)
+
+    setTimeout(() => {
+      clearInterval(interval)
+    }, 20000)
+  </script>
+</body>
+</html>
