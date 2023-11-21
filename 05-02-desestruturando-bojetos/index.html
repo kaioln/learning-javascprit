@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desestruturando Objetos</title>
+</head>
+<body>
+    <script>
+        const person = {
+            name: 'Italo',
+            age: 14,
+            contact: {
+                conta: {
+                    email: 'kaio.leonardoss@gmail.com'
+                }
+            }
+        }
+        
+        const { name, age, contact: { conta: { email } } } = person
+    </script>
+</body>
+</html>
