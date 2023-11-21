@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recebendo Argumentos com REST Operator</title>
+</head>
+<body>
+    <script>
+        function createUser(name, age, ...contacts) {
+            return {
+                name,
+                age,
+                contacts: [contact1, contact2, contact3]
+            }
+        }
+    </script>
+</body>
+</html>
