@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desestruturando Funções</title>
+</head>
+<body>
+    <script>
+        function createUser ({name, age, email}) {
+            return {
+                name,
+                age,
+                contact: { email }
+            }
+        }
+
+        const user = createUser({
+            name: 'Lucas',
+            age: 32,
+            email: 'kaio.leonardoss@gmail.com'
+        })
+    </script>
+</body>
+</html>
