@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array.some e Array.every</title>
+</head>
+<body>
+    <script>
+        const guests = [
+            { name: 'Lucas',   age: 18 },
+            { name: 'Mario',   age: 25 },
+            { name: 'Jean',   age: 34 },
+            { name: 'Rogerio',   age: 48 },
+            { name: 'Marcos',   age: 53 },
+        ]
+
+        const hasAdults = guests.some(guest => guest.age >= 18)
+
+        const everyoneIsAnAdult = guests.every(guest => guest.age >= 18)
+    </script>
+</body>
+</html>
