@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterando Arrays com forEach</title>
+</head>
+<body>
+    <script>
+        const fruits = ['banana', 'morango', 'manga']
+
+        function eatAllFruits() {
+            fruits.forEach((fruit, index) => {
+                console.log(`Acabei de comer ${fruit}`)
+                console.log(`ele era o ${index +1} item da lista`)
+            })
+        }
+    </script>
+</body>
+</html>
