@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async e Await</title>
+</head>
+<body>
+    <script>
+        function sleep (ms) {
+            return new Promise (
+                resolve => { setTimeout(() => resolve(true), ms)}
+            )
+        }
+
+        async function handleclick() {
+            await sleep(5000)
+            return 'batata'
+        }
+
+        function handleclick2() {
+            return new Promise((resolve, reject) =>{
+                setTimeout(() => {
+                    resolve('batata')
+                }, 5000)
+            })
+        }
+    </script>
+</body>
+</html>
