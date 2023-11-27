@@ -1,1 +1,4 @@
-const chalk = require('chalk') 
+
+const chalk = require('chalk')
+
+console.log(chalk.blue('olá'), chalk.cyan(' mundo!'))
