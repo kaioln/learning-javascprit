@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^5.3.2"
+  },
+  "name": "typealiasing",
+  "version": "1.0.0",
+  "description": "learning ts",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
