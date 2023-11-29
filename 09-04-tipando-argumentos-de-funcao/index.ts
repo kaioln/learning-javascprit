@@ -1,6 +1,6 @@
 function greet(name: string | number) {
     console.log(
-        `hello, ${name.toUpperCase()}!` //Typescript não aceita uppercase em number.
+        `hello, ${name}!` //Typescript não aceita uppercase em number.
     )
 }
 
