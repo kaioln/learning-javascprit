@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^5.3.2"
+  },
+  "name": "interfaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
